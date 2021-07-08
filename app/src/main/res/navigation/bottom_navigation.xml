@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/first_fragment">
+
+    <fragment
+        android:id="@+id/first_fragment"
+        android:name="com.github.tatsuyafujisaki.expandablelistviewsample.ui.MainFragment"
+        android:label="@string/main"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/second_fragment"
+        android:name="com.github.tatsuyafujisaki.expandablelistviewsample.ui.SecondFragment"
+        android:label="@string/second"
+        tools:layout="@layout/fragment_second" />
+
+    <fragment
+        android:id="@+id/third_fragment"
+        android:name="com.github.tatsuyafujisaki.expandablelistviewsample.ui.ThirdFragment"
+        android:label="@string/third"
+        tools:layout="@layout/fragment_third" />
+
+    <fragment
+        android:id="@+id/fourth_fragment"
+        android:name="com.github.tatsuyafujisaki.expandablelistviewsample.ui.FourthFragment"
+        android:label="@string/fourth"
+        tools:layout="@layout/fragment_fourth" />
+</navigation>

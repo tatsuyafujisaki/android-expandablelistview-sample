@@ -1,0 +1,25 @@
+buildscript {
+    ext {
+        navigationVersion = '2.3.5'
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
+        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.20'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

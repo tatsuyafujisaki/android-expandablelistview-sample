@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExpandableListViewSample</string>
+    <string name="main">Main</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+    <string name="fourth">Fourth</string>
+    <string name="update">Update</string>
+</resources>
